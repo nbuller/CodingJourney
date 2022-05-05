@@ -1,20 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>HTML Course Practice</title>
-</head>
-<body>
-    <div class="lesson">
-        <h1>Lesson 1: Wrighting HTML Code</h1>
+    <!-- TODO: link rel needs to be finished by making a css/main.css file -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/main.css" /> -->
+    <p>
+    <a href="./Page2.html"
+      ><img
+        src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2019/07/coding-apps.jpg?q=50&fit=contain&w=500&h=450&dpr=1.5"
+        alt="placeholder image"
+    /></a>
+    <nav>
+      <a href="#anchor"> Go to lesson 1</a>,
+      <a href="https://www.google.com/" target="blank">Go to Google</a>,
+      <a href="Page2.html">Go to Page 2</a>
+    </nav>
+  </head>
+  </p>
+  <body>
+    <a name="anchor"></a>
+    <!-- This is where I praticed headers, paragraphs, and breaks -->
+    <div id="container">
+      <div class="lesson">
+        <h1>Lesson 1: Basics of HTML</h1>
         <p>This is the frist step in my journey to becomeing a programmer.</p>
-        <p>New paragraphs will have a line space between them like you see above.</p>
-        This is a line break.<br>
-        it works well for addresses.<br>
-        or anything you dont wont a line space between.<br>
+        <p>
+          New paragraphs will have a line space between them like you see above.
+        </p>
+        This is a line break.<br />
+        it works well for addresses.<br />
+        or anything you dont wont a line space between.<br />
+      </div>
+      <!-- This is where i practiced div, span, Id's -->
+      <div class="lesson">
+        <h2>Lesson 2: Div, Span, Id's</h2>
+        <p>
+          You can use a div to contain a section of information to structure out
+          your website to make it easier to style later.
+        </p>
+        <p>A div will move the contents down one line of code.</p>
+        <p>
+          You can use a span to contain a section of information to structure
+          out your website to make it easier to style later.
+        </p>
+        <p>A Span will keep the contents on the same line of code.</p>
+        <p>
+          Ex. If you insert a div between
+          <b>Lesson 2: and Div, Span, Id's</b> then the Div, Span, Id's would
+          appear on the line below Lesson 2.
+        </p>
+        <p>
+          If you used span instead it would be as it is in bold at the top of
+          the page.
+        </p>
+        <p>
+          You can add an ID to your div like div id=course info to make the code
+          easier to read and sytle later on.
+        </p>
+      </div>
+      <!-- this is where i practiced hyperlinks -->
+      <div class="lesson">
+        <h2>Lesson 3: Hyper Links</h2>
+        <button type="button" onclick="alert('The button has been pushed')">
+          Push the button
+        </button>
+        <p>So you want to link one index page to another index page.</p>
+        <p>
+          You can put a list between two nav code lines for organizaion and easy
+          or read.
+        </p>
+        <p>
+          Then for each link use (a href) plus the http address to hyperlink.
+        </p>
+        <p>Best practice is to have hyperlinks open in a new tab.</p>
+        <p>
+          You can use target="blank" after your (a href=web address) to have the
+          links open in a new tab.
+        </p>
+        <p>
+          You can use an index.html in place of the http address (where index is
+          the folder name) if the location is within the same folder.
+        </p>
+        <p>
+          you can link out with an anchor to a name tag. see below examples.
+        </p>
+        <!-- praticed ordered list -->
+        <ol>
+          <li>Learn HTML</li>
+          <li>learn CSS</li>
+          <li>Learn JavaScript</li>
+          <li>Learn Python</li>
+        </ol>
+        <p>Another option is unordered list.</p>
+        <!--  praticed unordered list  -->
+        <ul>
+          <li>Learn HTML</li>
+          <li>learn CSS</li>
+          <li>Learn JavaScript</li>
+          <li>Learn Python</li>
+        </ul>
+      </div>
     </div>
-    <div class="lesson">
-        <h2>Lesson 2: Basic HTML</h2>
-    </div>
-</body>
+  </body>
 </html>
